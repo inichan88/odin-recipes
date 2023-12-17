@@ -1,0 +1,15 @@
+body { font-family: Verdana, Geneva, Tahoma, sans-serifs; 
+    background-color: rgb(5, 66, 5); }
+
+img { width: 350px; height: auto; }
+
+h1, h3 { color: rgb(109, 2, 2); weight: bold;
+    text-shadow: 2px 0 beige, -2px 0 beige, 0 2px beige, 0 -2px beige, 
+    1px -1px beige,
+    -1px 1px beige, 1px 1px beige, -1px -1px beige  }
+
+p, li { color: beige; }
+
+a { color: beige; text-decoration: none; }
+
+.recipe-list { line-height: 170% }
