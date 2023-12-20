@@ -1,7 +1,15 @@
 body { font-family: Verdana, Geneva, Tahoma, sans-serifs; 
     background-color: rgb(5, 66, 5); }
 
-img { width: 350px; height: auto; }
+.card {
+    width: 50%;
+    margin: auto;
+    padding: 12px;
+    border: 8px double beige;
+    text-align: center;
+}
+
+img { width: 350px; height: auto; } 
 
 h1, h3 { color: rgb(109, 2, 2); weight: bold;
     text-shadow: 2px 0 beige, -2px 0 beige, 0 2px beige, 0 -2px beige, 
@@ -9,6 +17,10 @@ h1, h3 { color: rgb(109, 2, 2); weight: bold;
     -1px 1px beige, 1px 1px beige, -1px -1px beige  }
 
 p, li { color: beige; }
+
+ul { list-style-type: none; }
+
+.steps { text-align: left; }
 
 a { color: beige; text-decoration: none; }
 
